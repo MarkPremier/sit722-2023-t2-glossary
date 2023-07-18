@@ -6,13 +6,21 @@
   </head>
   <body>
     <h1><%= title %></h1>
-    <p>Welcome to <%= title %></p>
-    <p>This is <%= subTitle %></p>
+    <p><%= subTitle %></p>
     <table>
-      <% names.forEach((name) => { %>
+      <% headings.forEach((heading) => { %>
       <tr>
-        <td><%= name.id %></td>
-        <td><%= name.name %></td>
+        <th><%= heading.id %></th>
+        <th><%= heading.term %></th>
+        <th><%= heading.description %></th>
+        <th><%= heading.references %></th>
+      </tr>
+      <%}) %> <% terms.forEach((term) => { %>
+      <tr>
+        <td id="col1"><%= term.id %></td>
+        <td id="col2"><%= term.term %></td>
+        <td id="col3"><%= term.term %></td>
+        <td id="col4"><%= term.term %></td>
       </tr>
       <%}) %>
     </table>
