@@ -41,11 +41,47 @@ const termList = [
   },
   {
     id: 4,
-    term: "Agile",
+    term: "Microservices",
     description:
-      "This methodology values short development cycles, small teams, close collaboration with clients, constant adaption and continuous improvement.",
+      "This refers to breaking apart large monolithic software into smaller, independent yet coupled services. This means that if one Microsservice goes, down the entire app won't go down with it.",
     references:
-      "Atlassian, “What is Agile? | Atlassian,” Atlassian, 2023. https://www.atlassian.com/agile (accessed Jul. 18, 2023).",
+      "martinekuan, “Microservice architecture style - Azure Architecture Center,” Microsoft.com, 2023. https://learn.microsoft.com/en-us/azure/architecture/guide/architecture-styles/microservices (accessed Jul. 18, 2023).",
+  },
+  {
+    id: 5,
+    term: "AIops",
+    description: "",
+    references: "",
+  },
+  {
+    id: 6,
+    term: "Wall of Confusion",
+    description: "",
+    references: "",
+  },
+  {
+    id: 7,
+    term: "Bootstrapping",
+    description: "",
+    references: "",
+  },
+  {
+    id: 8,
+    term: "CI/CD Pipelines",
+    description: "",
+    references: "",
+  },
+  {
+    id: 9,
+    term: "End-to-end Testing",
+    description: "",
+    references: "",
+  },
+  {
+    id: 10,
+    term: "Infrastructure as Code",
+    description: "",
+    references: "",
   },
 ];
 
