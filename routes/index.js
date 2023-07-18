@@ -49,7 +49,7 @@ const termList = [
   },
   {
     id: 5,
-    term: "AIops",
+    term: "Technical Debt",
     description: "",
     references: "",
   },
@@ -90,7 +90,7 @@ router.get("/", function (req, res, next) {
   res.render("index", {
     title: "SIT722 DevOps Glossary",
     subTitle:
-      "Welcome to my glossary website, where I will share a collection of DevOps terms I have learned over the course of this unit.",
+      "Welcome to my glossary website, where I will share and define a collection of DevOps terms I have learned over the course of this unit.",
     terms: termList,
     headings: heading,
   });
