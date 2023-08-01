@@ -101,6 +101,71 @@ const termList = [
     references2:
       "“Infrastructure as Code | IBM,” Ibm.com, 2023. https://www.ibm.com/topics/infrastructure-as-code (accessed Jul. 19, 2023).",
   },
+  {
+    id: 11,
+    term: "",
+    description: "",
+    references: "",
+  },
+  {
+    id: 12,
+    term: "",
+    description: "",
+    references: "",
+    references2: "",
+  },
+  {
+    id: 13,
+    term: "",
+    description: "",
+    references: "",
+    references2: "",
+  },
+  {
+    id: 14,
+    term: "",
+    description: "",
+    references: "",
+  },
+  {
+    id: 15,
+    term: "",
+    description: "",
+    references: "",
+    references2: "",
+  },
+  {
+    id: 16,
+    term: "",
+    description: "",
+    references: "",
+  },
+  {
+    id: 17,
+    term: "",
+    description: "",
+    references: "",
+  },
+  {
+    id: 18,
+    term: "",
+    description: "",
+    references: "",
+  },
+  {
+    id: 19,
+    term: "",
+    description: "",
+    references: "",
+    references2: "",
+  },
+  {
+    id: 20,
+    term: "",
+    description: "",
+    references: "",
+    references2: "",
+  },
 ];
 
 /* GET home page. */
