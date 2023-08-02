@@ -104,66 +104,90 @@ const termList = [
   {
     id: 11,
     term: "Monolithic Architecture",
-    description: "",
-    references: "",
+    description:
+      "A software architecture that's made up of single, large chunk of code. Though it is less complicated to manage initially, as the code gets larger it becomes difficult to scale and maintain",
+    references:
+      "Siraj ul Haq, “Introduction to Monolithic Architecture and MicroServices Architecture,” Medium, May 02, 2018. https://medium.com/koderlabs/introduction-to-monolithic-architecture-and-microservices-architecture-b211a5955c63 (accessed Aug. 01, 2023).",
   },
   {
     id: 12,
-    term: "Behaviour Driven Design",
-    description: "",
-    references: "",
-    references2: "",
+    term: "Behaviour-Driven Design (BDD)",
+    description:
+      "A way for the business side and technology side of the company to collaborate. Prioritises small iterations, plenty of feedback and real world scenarios on how the software should work",
+    references:
+      "“Behaviour-Driven Development - Cucumber Documentation,” Cucumber.io, 2019. https://cucumber.io/docs/bdd/ (accessed Aug. 01, 2023).",
+    references2:
+      "“BDD: Learn about Behavior Driven Development,” Agile Alliance |, Dec. 17, 2015. https://www.agilealliance.org/glossary/bdd/ (accessed Aug. 01, 2023).",
   },
   {
     id: 13,
-    term: "Test Driven Design",
-    description: "",
-    references: "",
-    references2: "",
+    term: "Test-Driven Design",
+    description:
+      "A software development process that mandates that test cases be created before developing actual code. A test case is created and then code is written that satisfies that test case. No new code is written unless that test case fails. It promoted smaller iterations and functional code.",
+    references:
+      "Jash Unadkat, “What is Test Driven Development (TDD) ? | BrowserStack,” BrowserStack, Jun. 14, 2023. https://www.browserstack.com/guide/what-is-test-driven-development (accessed Aug. 01, 2023)‌",
+    references2:
+      "“What is Test Driven Development (TDD)? Example,” Guru99, Jun. 10, 2023. https://www.guru99.com/test-driven-development.html (accessed Aug. 01, 2023).",
   },
   {
     id: 14,
     term: "User Story",
-    description: "",
-    references: "",
+    description:
+      "An explanantion of a feature in the software being developed, as expressed by an end user. Used to ensurre the software provides value to the users.",
+    references:
+      "Atlassian, “User Stories | Examples and Template | Atlassian,” Atlassian, 2023. https://www.atlassian.com/agile/project-management/user-stories (accessed Aug. 01, 2023).",
   },
   {
     id: 15,
     term: "Regression Test",
-    description: "",
-    references: "",
-    references2: "",
+    description:
+      "A type of test that runs everytime code has been committed to the codebase. It checks that the changes haven't introduced unintended issues that break the software or cause regressions like slowdowns. Issues are instantly found out and sent back to developers to rectify.",
+    references:
+      "Shaumik Daityari, “Regression Testing : Definition, How it works | BrowserStack,” BrowserStack, Jun. 24, 2023. https://www.browserstack.com/guide/regression-testing (accessed Aug. 01, 2023).",
+    references2:
+      "“Understanding the Role of Regression Testing,” Spiceworks, Oct. 06, 2022. https://www.spiceworks.com/tech/devops/articles/what-is-regression-testing/ (accessed Aug. 01, 2023).",
   },
   {
     id: 16,
-    term: "Chaos Planning",
-    description: "",
-    references: "",
+    term: "Chaos Testing",
+    description:
+      "Involves the intentiona creation of error in production code to simulate real life failure states in a test environment. This can allow the refining of disaster response strategies and contingencies.",
+    references:
+      "E. Goikhman, “Chaos testing: the ultimate guide,” Vulcan Cyber, Oct. 19, 2022. https://vulcan.io/blog/chaos-testing-what-you-need-to-know/ (accessed Aug. 01, 2023).",
   },
   {
     id: 17,
-    term: "Infrastructure as Code",
-    description: "",
-    references: "",
+    term: "Containerization",
+    description:
+      "The act of packaging the software together with its dependancies to ensure it runs the same anywhere. The container contains only what is needed to run the software, so it's lightweight and can have many instances.",
+    references:
+      "“What Are Containers and Containerization in DevOps? - Papertrail,” Papertrail, Jan. 25, 2022. https://www.papertrail.com/solution/tips/what-are-containers-and-containerization-in-devops/ (accessed Aug. 02, 2023).",
   },
   {
     id: 18,
     term: "Automation",
-    description: "",
-    references: "",
+    description:
+      "The usage of tools and services that instantly perform tasks once triggers have been hit. This reduces the manual work for operations teams, and allows instant feedback.",
+    references:
+      "C. Fernandes, “DevOps automation: Best practices and benefits,” Sumo Logic, Aug. 24, 2022. https://www.sumologic.com/blog/devops-automation-best-practices-benefits/ (accessed Aug. 02, 2023).",
   },
   {
     id: 19,
     term: "Hybrid Cloud",
-    description: "",
-    references: "",
-    references2: "",
+    description:
+      "A mix of on premises computing and computing on the cloud. The two computing environments talk to each other and share different systems. Benefits include increased security for on premises and cheaper capital costs for cloud.",
+    references:
+      "“What is Hybrid Cloud? Definition and Challenges | VMware,” VMware, Jan. 31, 2023. https://www.vmware.com/au/topics/glossary/content/hybrid-cloud.html (accessed Aug. 02, 2023).",
+    references2:
+      "“What is hybrid cloud?,” Redhat.com, 2022. https://www.redhat.com/en/topics/cloud-computing/what-is-hybrid-cloud (accessed Aug. 02, 2023).",
   },
   {
     id: 20,
     term: "Mean Time to Recovery",
-    description: "",
-    references: "",
+    description:
+      "Relates to the average time it takes to recover from a system failure. From the second the issue begins to the second it is fixed.",
+    references:
+      "Atlassian, “MTBF, MTTR, MTTF, MTTA: Understanding incident metrics,” Atlassian, 2020. https://www.atlassian.com/incident-management/kpis/common-metrics (accessed Aug. 02, 2023).",
     references2: "",
   },
 ];
