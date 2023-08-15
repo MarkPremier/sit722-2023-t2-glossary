@@ -190,6 +190,92 @@ const termList = [
       "Atlassian, “MTBF, MTTR, MTTF, MTTA: Understanding incident metrics,” Atlassian, 2020. https://www.atlassian.com/incident-management/kpis/common-metrics (accessed Aug. 02, 2023).",
     references2: "",
   },
+  {
+    id: 21,
+    term: "Application Isolation",
+    description:
+      "A secure computing environment where potentially harmful applications are executed, with the intent to protect computer systems.",
+    references:
+      "S. Burge, “What is Endpoint Application Isolation & Containment Technology?,” International Security Journal, May 10, 2023. https://internationalsecurityjournal.com/what-is-endpoint-application-isolation-containment-technology/ (accessed Aug. 14, 2023).",
+  },
+  {
+    id: 22,
+    term: "Kubernetes",
+    description:
+      "An open source container management system for use with large scale containerised applications.",
+    references:
+      "“What is Kubernetes? | Microsoft Azure,” azure.microsoft.com. https://azure.microsoft.com/en-au/resources/cloud-computing-dictionary/what-is-kubernetes/",
+  },
+  {
+    id: 23,
+    term: "Virtual Machines",
+    description:
+      "A virtualised computer that runs in software, which runs on a physical PC. Multiple instances can be run at the same time, each with their own virtualised CPU, RAM, OS, and other components which are provisioned to it from the host computer.",
+    references:
+      "“What is a Virtual Machine? | VMware Glossary,” VMware, Aug. 04, 2022. https://www.vmware.com/au/topics/glossary/content/virtual-machine.html (accessed Aug. 14, 2023).",
+    references2:
+      "“What is a virtual machine (VM)?,” Redhat.com, 2022. https://www.redhat.com/en/topics/virtualization/what-is-a-virtual-machine (accessed Aug. 14, 2023).",
+  },
+  {
+    id: 24,
+    term: "Alpine Linux",
+    description:
+      "A lightweight Linux distribution that focuses on security and resource efficiency. Often used in docker containers.",
+    references:
+      "“about | Alpine Linux,” Alpinelinux.org, 2022. https://www.alpinelinux.org/about/ (accessed Aug. 14, 2023).",
+  },
+  {
+    id: 25,
+    term: "Docker",
+    description:
+      "A platform for building, deploying and managing containers. These the application code with their dependencies including the OS they run on.",
+    references:
+      "“Docker overview,” Docker Documentation, Aug. 14, 2023. https://docs.docker.com/get-started/overview/ (accessed Aug. 14, 2023).",
+    references2:
+      "“What is Docker? | IBM,” Ibm.com, 2013. https://www.ibm.com/topics/docker (accessed Aug. 14, 2023).",
+  },
+  {
+    id: 26,
+    term: "Cloud Native",
+    description:
+      "A devops approach which invoves the building, deploying, and managing of applications entirely in the cloud.",
+    references:
+      "“What is Cloud Native? - Everything you need to know - AWS,” Amazon Web Services, Inc., 2015. https://aws.amazon.com/what-is/cloud-native/ (accessed Aug. 14, 2023).",
+  },
+  {
+    id: 27,
+    term: "Terraform",
+    description:
+      "An infrastructure as code tool that that can be used to provision cloud resources. It is platfoem agnostic, so can be used on multiple different cloud services.",
+    references:
+      "D. Harrington, “What is Terraform: Everything You Need to Know | Varonis,” Varonis.com, Mar. 30, 2022. https://www.varonis.com/blog/what-is-terraform (accessed Aug. 14, 2023).",
+  },
+  {
+    id: 28,
+    term: "Frontend",
+    description:
+      "The aspect of the website that customers or end users interact with. Is comprised of design elements and user interface elements.",
+    references:
+      "“What is a Front End (In a Website) - Definition & Development,” Airfocus.com, 2020. https://airfocus.com/glossary/what-is-a-front-end/ (accessed Aug. 14, 2023).",
+  },
+  {
+    id: 29,
+    term: "Backend",
+    description:
+      "The server-side of the website code, focuses on aspects the customer or client cannot see. This includes databases, APIs and architecture.",
+    references:
+      "“What Does a Back-End Developer Do?,” Coursera, 2023. https://www.coursera.org/articles/back-end-developer (accessed Aug. 14, 2023).",
+  },
+  {
+    id: 30,
+    term: "Multi-container Apps",
+    description:
+      "Applications that run off several fully isolated containers, each container specialising in a specific function.",
+    references:
+      "“Multi container apps,” Docker Documentation, Aug. 14, 2023. https://docs.docker.com/get-started/07_multi_container/ (accessed Aug. 15, 2023).",
+    references2:
+      "N. Chase, “Kubernetes multi-container pods and container communication| Mirantis,” Mirantis, 2022. https://www.mirantis.com/blog/multi-container-pods-and-container-communication-in-kubernetes/ (accessed Aug. 15, 2023).",
+  },
 ];
 
 /* GET home page. */
