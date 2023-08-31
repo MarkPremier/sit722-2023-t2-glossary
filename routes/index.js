@@ -276,6 +276,86 @@ const termList = [
     references2:
       "N. Chase, “Kubernetes multi-container pods and container communication| Mirantis,” Mirantis, 2022. https://www.mirantis.com/blog/multi-container-pods-and-container-communication-in-kubernetes/ (accessed Aug. 15, 2023).",
   },
+  {
+    id: 31,
+    term: "Docker Compose",
+    description:
+      "A tool that helps maintain, launch and define multi-container applications. Ideal when lots of Microservices are in use.",
+    references:
+      "“Use Docker Compose,” Docker Documentation, 2023. https://docs.docker.com/get-started/08_using_compose/ (accessed Aug. 30, 2023).",
+  },
+  {
+    id: 32,
+    term: "Direct Messaging",
+    description:
+      "In an application composed of many microservices, this refers to one microservice directly communicating with another in a way that links them together.",
+    references:
+      "K. Galbraith, “3 methods for microservice communication - LogRocket Blog,” LogRocket Blog, Aug. 27, 2019. https://blog.logrocket.com/methods-for-microservice-communication/ (accessed Aug. 30, 2023).",
+  },
+  {
+    id: 33,
+    term: "Indirect Messaging",
+    description:
+      "In terms of microservices, this refers to decoupling the messaging service, so the two microservices can recieve messages from each other but not have to respond or recieve them instantly.",
+    references:
+      "jamesmontemagno, “Communication in a microservice architecture,” Microsoft.com, Apr. 13, 2022. https://learn.microsoft.com/en-us/dotnet/architecture/microservices/architect-microservice-container-applications/communication-in-microservice-architecture (accessed Aug. 30, 2023).",
+  },
+  {
+    id: 34,
+    term: "Domain Name System",
+    description:
+      "Often abbreviated as DNS, this refers to a naming systems that allocates an IP address to a hostname. The hostname is text and easier for humans to read and remember.",
+    references:
+      "“What is DNS? | How DNS works,” Cloudflare, 2023. https://www.cloudflare.com/en-gb/learning/dns/what-is-dns/ (accessed Aug. 30, 2023)",
+  },
+  {
+    id: 35,
+    term: "HTTP",
+    description:
+      "Stands for hypertext transfer protocol. Is a protocol in the application later of the TCP/IP suite that enables the transfer of data across the internet.",
+    references:
+      "“An overview of HTTP - HTTP | MDN,” Mozilla.org, May 15, 2023. https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview (accessed Aug. 30, 2023)",
+  },
+  {
+    id: 36,
+    term: "HTML",
+    description:
+      "Stands for Hypertext Markup Language. Is a markup laungauge used for structuring and creating web pages.",
+    references:
+      "“Introduction to HTML,” W3schools.com, 2023. https://www.w3schools.com/html/html_intro.asp (accessed Aug. 30, 2023).",
+  },
+  {
+    id: 37,
+    term: "Production Build",
+    description:
+      "A build of a software development project that is intended for release to the public.",
+    references:
+      "“LinkedIn,” Linkedin.com, 2023. https://www.linkedin.com/pulse/webpack-production-build-vs-development-prasenjit-sutradhar/ (accessed Aug. 30, 2023).",
+  },
+  {
+    id: 38,
+    term: "Live Reload",
+    description:
+      "When an application automatically displays changes after the code has been saved. No need to manually reload the app.",
+    references:
+      "A. Davis, “A complete guide to full-stack live reload - LogRocket Blog,” LogRocket Blog, Mar. 07, 2022. https://blog.logrocket.com/complete-guide-full-stack-live-reload/ (accessed Aug. 30, 2023).",
+  },
+  {
+    id: 39,
+    term: "NPM",
+    description:
+      "Stands for Node Package Manager. Is a software registry that allows users to download code packages over a CLI.",
+    references:
+      "“What is npm,” W3schools.com, 2023. https://www.w3schools.com/whatis/whatis_npm.asp (accessed Aug. 31, 2023)",
+  },
+  {
+    id: 40,
+    term: "MongoDB",
+    description:
+      "An open source database managment service that that allows high volume storage.",
+    references:
+      "“What Is MongoDB?,” MongoDB, 2018. https://www.mongodb.com/what-is-mongodb (accessed Aug. 31, 2023).",
+  },
 ];
 
 /* GET home page. */
