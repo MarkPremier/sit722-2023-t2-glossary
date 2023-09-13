@@ -356,6 +356,86 @@ const termList = [
     references:
       "“What Is MongoDB?,” MongoDB, 2018. https://www.mongodb.com/what-is-mongodb (accessed Aug. 31, 2023).",
   },
+  {
+    id: 41,
+    term: "Branching",
+    description:
+      "Allows developers or teams to work on different parts of a project without impacting each other, eventually merging back into main.",
+    references:
+      "B. Schiestl, “Code Branching Definition — What Is a Branch? | Perforce Software,” Perforce Software, 2020. https://www.perforce.com/blog/vcs/branching-definition-what-branch (accessed Sep. 13, 2023)",
+  },
+  {
+    id: 42,
+    term: "Integration Testing",
+    description:
+      "A software test that includes multiple modules or microservices, primarily intended to test how they work together, and if ther eare any defects with their interfaces.",
+    references:
+      "Rahul Awati, “integration testing or integration and testing (I&T),” Software Quality, 2022. https://www.techtarget.com/searchsoftwarequality/definition/integration-testing (accessed Sep. 13, 2023)",
+  },
+  {
+    id: 43,
+    term: "Unit Testing",
+    description:
+      "A type of software test that focuses on the smallest testable parts, such as individual microservices or modules.",
+    references:
+      "“Unit Testing Software Testing,” GeeksforGeeks, Apr. 18, 2019. https://www.geeksforgeeks.org/unit-testing-software-testing/ (accessed Sep. 13, 2023).",
+  },
+  {
+    id: 44,
+    term: "Version Control",
+    description:
+      "A way to track changes between versions of a project, and to ensure there are no conflicts are issues as developers make changes concurrently.",
+    references:
+      "GitLab, “What is version control?,” Gitlab.com, Feb. 04, 2022. https://about.gitlab.com/topics/version-control/ (accessed Sep. 13, 2023)",
+  },
+  {
+    id: 45,
+    term: "Git",
+    description:
+      "A version control system that tracks changes, informs of merging conflicts and allows you to revert to previous versions. It is essential for collaboration.",
+    references:
+      "N. Desktop, “What is Git and Why Should You Use it?,” Nobledesktop.com, Nov. 26, 2018. https://www.nobledesktop.com/learn/git/what-is-git (accessed Sep. 13, 2023).",
+  },
+  {
+    id: 46,
+    term: "Security Test",
+    description:
+      "A type of test that focuses on identifying weaknesses and threats to a piece of software. The ultimate goal beingto find and fix issue before malicious actors can.",
+    references:
+      "“What is Security Testing? Example,” Guru99, Sep. 2023. https://www.guru99.com/what-is-security-testing.html (accessed Sep. 13, 2023)‌",
+  },
+  {
+    id: 47,
+    term: "Software Complience",
+    description:
+      "How your personal or company software usage complies to regulations, which can be set by the industry, country or software makers.",
+    references:
+      "“Back to Basics: What is Software Compliance? - Vector,” Vector-networks.com, 2023. https://www.vector-networks.com/blog/back-to-basics-what-is-software-compliance/ (accessed Sep. 13, 2023)",
+  },
+  {
+    id: 48,
+    term: "Logging",
+    description:
+      "Typically a text file that is automatically generated, that highlights and records a sequence of events for troubleshooting purposes.",
+    references:
+      "I. Wigmore, “log (log file),” WhatIs.com, 2014. https://www.techtarget.com/whatis/definition/log-log-file (accessed Sep. 13, 2023).",
+  },
+  {
+    id: 49,
+    term: "Machine Learning",
+    description:
+      "The use of data algorithms that iminate that way human brains learn, increaing the accuracy of AI models.",
+    references:
+      "M. Sloan, “Machine learning, explained | MIT Sloan,” Mit.edu, Apr. 21, 2021. https://mitsloan.mit.edu/ideas-made-to-matter/machine-learning-explained (accessed Sep. 13, 2023).",
+  },
+  {
+    id: 50,
+    term: "Large Language Model",
+    description:
+      "A subset of machien learning, refers to models specialised in natural language processng, such as generating text and answering questions.",
+    references:
+      "M. Rouse, “Large Language Model (LLM),” Techopedia, Jul. 28, 2023. https://www.techopedia.com/definition/34948/large-language-model-llm (accessed Sep. 13, 2023).",
+  },
 ];
 
 /* GET home page. */
